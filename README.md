@@ -1,5 +1,3 @@
-This is the Rulebook for the Swiss CS2 Charity League.
-
 You can take a look at the current version of the rulebook at this link:
 https://www.overleaf.com/read/rpsxrrqzfwcx
 
