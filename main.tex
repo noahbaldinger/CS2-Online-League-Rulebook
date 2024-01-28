@@ -9,12 +9,12 @@
 \addto{\captionsngerman}{
 	\renewcommand\refname{Literaturverzeichnis} %Name für Quellenverzeichnis
 }
-\usepackage[T1]{fontenc}
+\usepackage[OT1]{fontenc}
+\renewcommand*\familydefault{\sfdefault}
 \usepackage[left=3 cm,right=3cm,top=2cm,bottom=3cm,includeheadfoot]{geometry} %Seitenränder
 \usepackage{xcolor} %Farben
 \usepackage{setspace} %Zeilenabstand definieren
 \usepackage{nameref}
-%\renewcommand*\familydefault{\sfdefault} %Falls keine Serifen gewünscht
 \usepackage[linktoc=all]{hyperref} %Verlinkungen
 \usepackage{multicol} %Mehrere Spalten
 \usepackage{multirow}
@@ -22,133 +22,147 @@
 \usepackage{mwe}
 \usepackage{wrapfig} %um Text um Bilder zu wrapen
 \newcommand{\uproman}[1]{\uppercase\expandafter{\romannumeral#1}}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathtools}
+\def\name{LEAGUE NAME}
+\def\twitter{\href{https://twitter.com/chcsleague}{Twitter}}
 
 
-\title{Swiss Counter Strike 2 Charity League Rulebook\\ Season 1\\(SCL Season 1)}
-\author{Noah Baldinger}
-\date{October 2023}
+\title{\name\\ Swiss Counter Strike 2 Community League\\Rulebook Season 1}
+\author{Noah 'Alastor' Baldinger, Jan 'Icy' Urech}
+\date{\today \hspace{1cm} Version Beta 1.0}
+
 
 \begin{document}
 \maketitle
+\tableofcontents
 
+\pagebreak
 \section{General}
-
-This rulebook will be the reference document for the Game tournament of the Charity League, which will take place from (date) to (date). 
+This rule book will be the reference document for the Counter Strike 2 Season 1 of \name, which will take place from 4.3.2024 to 28.4.2024. 
 
 \subsection{Participants}
-These rules apply to all people participating in the tournament, this 
-includes the players and their organization, including coaches, managers, owners, members and employees (hereinafter all these people 
-will be referred to as "tournament members"). By participating in this tournament, each participant agrees to abide by these regulations and confirms that they are aware of their content.\\
-Participants agree that their games during the tournament could be streamed or casted.
+These rules apply to all participants of the tournament, this includes the players and their organization. By participating in this tournament, each participant agrees to abide by these regulations and confirms that they are aware of their content.\\
+Participants agree that their games during the tournament could be streamed and cast.
 
 
-\subsubsection{Teams}
-A team for the CS2 tournament consists of five (5) main players, the main roster, up to two (2) stand-in players and up to two (2) 
-emergency stand-in players. Further rules for the stand-in player will be discussed in \ref{playerrules}.
-
-
-\subsection{Admins}
-
+\subsection{Admins}\label{admins}
+If you have any questions or problems, please contact the admins:
 \begin{enumerate}
-    \item \textbf{Alastor}: Discord: alastor42,
-    \item \textbf{}
+    \item \textbf{Alastor}: Discord: alastor42, \href{https://steamcommunity.com/id/-rotsala-/}{Steam}
+    \item \textbf{Icy}: Discord: icy42, \href{https://steamcommunity.com/id/icyq}{Steam}
+\end{enumerate}
+\subsubsection{Other Contacts}
+Should there be a case where both of the admins don't reply to you within 12 hours, you can try to contact the people below on 
+Steam or other Platforms.
+\begin{enumerate}
+    \item \textbf{ShebX} \href{https://steamcommunity.com/id/ShebX}{Steam}
+
 \end{enumerate}
 
-\subsection{Best-of-X}
-A Best-of-X describes the format in which a series will be carried out. A Best-of-3 means that a maximum of three (3) games will be 
-played, and the team that wins two (2) games wins the series. X describes the amount of games in a series.
-
-
-\subsection{Season}
-A season ends after the finals. A season includes all league games. The season starts....
-
-
-
-
-
-\section{Terms and Conditions of participation}
-
-Participation is free of charge.
-
-
-\subsection{Age Restriction}
-
-The minimum age to participate in the CS2 tournament is eighteen (18) years.
-
-\subsection{Geo-lock}
-Eligible for the tournament are players with Swiss citizenship, as well as players with a valid Swiss proof of residence.
+\subsection{Season 1 Timetable}
+Sign-up Process:
+\begin{itemize}
+\item Sign-up opens 19.2
+\item Sign-up closes 3.3
+\item Seeding Swiss 4.3
+\end{itemize}
+Swiss Rounds: (Default Date on Sunday 20:00, can be rescheduled, with 24 hours of notice to the Admins)
+\begin{itemize}
+\item Swiss Round 1 until 10.3
+\item Swiss Round 2 until 17.3
+\item Swiss Round 3 until 24.3
+\item Swiss Round 4 until 31.3
+\item Swiss Round 5 until 7.4
+\item Swiss Round 6 until 14.4
+\item Swiss Round 7 until 21.4
+\end{itemize}
+Playoffs:
+\begin{itemize}
+\item Semifinal until 27.4 (Default Date on Saturday 19:00, can be rescheduled)
+\item Finals 28.4 19:00 (cannot be rescheduled)
+\end{itemize}
 
 \subsection{Registration}
-Teams can register all players of the main roster and their stand-ins via this link: \href{www.google.com}{test} %google poll link
-
-\subsection{Names, Logos and Trademark Restrictions}
-The administrators reserve the right to reject any selected names, logos, images and other Trademarks at their discretion. This
-includes, but isn't limited to:
-\begin{itemize}
-    \item the rights of third parties without their written permission
-    \item the rights of brands or trademarks and everything that is closely related to or that imitates said rights/trademarks
-    \item the identity of other persons
-    \item the name or role of league teams and other teams or players.
-\end{itemize}
-
-
-\subsection{Sponsoring}
-Teams are allowed to use Sponsorship opportunities. Any Sponsorship that violates the rules is forbidden.
-
-
-\subsection{Player equipment}
-The tournament organizers do not provide any equipment needed to participate in the tournament. Player equipment needed to participate 
-includes: monitors, a PC, a mouse, a keyboard, headphones and a licence for the game in which they participate. 
-
-\subsection{Teamlimit}
-A player can only play for one (1) team. The only exception to this rule is a player acting as an emergency stand-in for a different
-team in the league. An emergency stand-in can only be used once per season. 
-
-\subsection{Roster Restrictions CS2}
-A team consists of five (5) main players, two (2) stand-ins and two (2) emergency stand-ins which can only be used once per season. 
-All five (5) main players, both (2) stand-ins and both (2) emergency stand-ins must have Swiss citizenship or have proof of Swiss 
-residence. 
-The rosters will be locked one day before the beginning of the season, teams will have time until midnight on that day to lock in their
-roster. 
-
-
-\label{playerrules}\subsection{Change of Players}
-Teams can change out players with their stand-ins for games, as long as it is communicated to the administrators in due time and 
-the other requirements for the line-up are still met. 
+Teams will have to create a team on Faceit and then join the tournament via this link: \href{www.google.com}{Tournament page}.\\
+Follow the instructions during the sign-up process closely.\\
+The administrators reserve the right to reject and replace any selected names, logos, and images at their discretion. 
 
 \subsection{Communication}
-All official communications for the tournament will take place on the League's Discord server. This includes match dates and times, 
-teams standings, as well as reschedule requests. Each team is expected to check the Discord server at least once a day, as to not miss
-any crucial information or announcements. One or more members of the team should be present in the Discord server one hour before one 
-of their games. 
+All official communications for the tournament will take place on the Tournament's Faceit page. Announcements will be posted to Faceit and \twitter. Each team should have a member check the match room for their upcoming match to make sure they don't miss any important announcement. 
 
-
-
+\subsection{Code of Conduct}
+All players are expected to conduct themselves in a sportsmanlike manner and to show respect for each other
+as well as for all admins. The players must follow all instructions of the admins. Misbehavior will be punished by the admins.
 
 \section{Tournament Information}
-
-
 \subsection{Tournament Management Platform}
-Faceit?
-Discord? (dathost servers)
-
+All matches will be played on Faceit. Information about all matches can be found on the Faceit page of the tournament. Should 
+you still have questions about something like rescheduling, you can contact the admins via Discord \ref{admins}. 
 
 \subsection{Tournament Format}
-The tournament will use a Swiss System. After the Swiss rounds, there will be two semifinal matches to determine the two finalists and 
-one grand final match to determine the winner of the tournament. Both semifinals and the grand finals will be played in Best-of-3's.
+The tournament consists of a Swiss system group phase followed by top 4 single elimination playoffs. The Swiss system group phase runs for 7 rounds, with each round taking one week. Each match-up in the Swiss system is played as a Best-of-2. The \href{https://support.faceit.com/hc/en-us/articles/360003297299-What-are-tiebreakers-}{Buchholz Tiebreaker} and \href{https://web.archive.org/web/20210410142913/https://support.faceit.com/hc/en-us/articles/360010288440-Swiss-system-tournaments}{match-up generation} in the Swiss System is defined and implemented by Faceit.
+The top 4 Teams from the group phase will advance to the playoffs. Each match in the playoffs is played as a Best-of-3. The playoffs take place in the 8th week of the tournament. The semifinals can be rescheduled but have to be played until Saturday 20:00 of the playoff week. The grand final cannot be rescheduled and starts on Sunday 19:00 of the same week.
 
-\subsection{Timeouts during a Game}
-There are three different types of timeouts that can occur during a match:
+\subsection{Roster Restrictions}
+A player can only play for one team in each Season. 
+A team consists of up to seven (7) players. The rosters will be locked one day before the beginning of the season, teams will have time until midnight on that day to lock in their roster. During the season, each team has the ability to swap one (1) player in total. This swap can either be permanent, replacing another player on the roster until the end of the season, or temporary for just one match. Filling previously empty slots is also not considered a swap. A team can thus start with a lineup of 5 players, then add 2 additional players, and finally swap one player from their roster.
+Swaps and additions to the team need to be communicated to the admins at least 24 hours before the match they are relevant in.
 
+\subsection{Match Roster Requirements}
+Teams can choose which players will play for every game by choosing any combination of players from their roster.
+In each game, at least 3 players must be Swiss. Additionally, one player has to either be Swiss or have been to a Swiss LANparty.
+To be considered Swiss, a player has to have a Swiss or Lichtenstein residency license or be of Swiss nationality. This has to be provable by some form of documentation.
+For some of the biggest LANparties we provide historic data of participants available online. If the player in question 
+participated in one of those events, it suffices to know the year, event and team of the player (See the list below). Generally 
+all LANparties in Switzerland are accepted, the exceptions are LAN finals of online tournaments and 
+\href{https://www.suprememasters.gg/}{Supreme Masters}. If the player participated in an event or year that is not listed below, 
+the participation can be proven by a sign-up mail or a similar document.\\
+It is the responsibility of the team that their roster fulfills the above requirements and that the required proof is available. 
+When in doubt, contact the admins \ref{admins} before building the roster.
+
+\subsubsection{Roster Check}
+Each team can request one roster check in each season. The admins also check one roster at random each week. There will be no communication on the reason for the check.\\
+As part of a roster check, the team will have to provide the necessary proof that the roster that played their last match fulfilled the tournament's requirements. If the team fails to provide this proof within 24 hours, they will be disqualified from the tournament. Due to the time constraints on the running tournament, the result of the match will not be changed.
+
+\subsubsection{Lanparties}
+Switzerlan
 \begin{itemize}
-    \item \textbf{Technical Timeout}: In case of Connection issues, equipment/hardware issues or any other kind of technical problems, the teams can pause the game by using the command "!pause". The pause will take effect as soon as the next freeze time starts.
-    \item \textbf{Tactical Timeout}: Every team can use two (2) tactical timeouts per map. These timeouts last 30 seconds and can be called at any time during the game, with the command "!tac". The timeout will start with the next freeze time.
-    \item \textbf{Admin timeout}: An Admin can set up a timeout at any time of the game at his own discretion. The pause becomes active with the next freeze time. It is mandatory that the admin informs the teams about the reason for the timeout in due time.
+    \item \href{https://battlefy.com/switzerlan-2023/switzerlan-2023-counter-strike-2/65293e1a490b280d6f6adcb0/participants}{2023}
+    \item \href{https://battlefy.com/switzerlan-2022/switzerlan-2022-csgo/634937c11ecc2379690e86f8/participants}{2022}
+    \item \href{https://battlefy.com/switzerlan-2021/switzerlan-2021-csgo/613e02153a882b30a4149fc3/participants}{2021}
+    \item \href{https://battlefy.com/switzerlan-2020/switzerlan-2020-csgo/5f806e118f28e0606c16e93a/participants}{2020}
+    \item \href{https://battlefy.com/switzerlan-2019/csgo-5on5-main-tournament/5dd7f3c10f8e011abc0fd63f/participants}{2019}
+    \item \href{https://battlefy.com/switzerlan-2018/csgo-5on5-main-tournament/5bb561bd0983dd03b26db586/participants}{2018}
 \end{itemize}
+Eevent
+\begin{itemize}
+    \item \href{https://16.eevent.ch/turnier/?do=teilnehmer&id=268}{16 2023}
+    \item \href{https://15.eevent.ch/turnier/?do=teilnehmer&id=244}{15 2022}
+    \item \href{https://14.eevent.ch/turnier/?do=teilnehmer&id=188}{14 2020}
+    \item \href{https://13.eevent.ch/turnier/?do=teilnehmer&id=149}{13 2019}
+\end{itemize}
+Lock and Load:
+\begin{enumerate}
+ \item \href{https://lockandload.ch/user/?do=login}{Login}
+ \item Go to \href{https://lockandload.ch/online/}{users} click on your username
+ \item Send us the id in the url https://lockandload.ch/user/?id=\underline{3313}
+\end{enumerate}
 
+\subsection{Cheating}
+During all games, the Faceit Anti-Cheat must be running.\\
+A player banned from Counter-Strike on Steam or Faceit is not allowed to compete in the competition.
+Any form of cheating using software, hardware, or bugs in the game to gain an unfair advantage over the 
+other team is strictly prohibited. Misconduct will result at least in a ban of the involved player, but can also lead to sanctions against the involved team.\\
+
+\subsection{Punctuality}
+The veto for all matches starts 15 minutes before the match. A team automatically loses a map (0:13) if not all players are on the server 15 minutes after match start (e.g., : match start at 20:00, map veto at 19:45, if “Team A” is missing one player at 20:15, “Team A” loses the first map, the missing player then has another 15 minutes to join the server for the second map, otherwise the second map is also lost). The standard break time between maps is ten (10) minutes. Is a team not ready after five (5) additional minutes after the break, they lose the map. \\
+\\
+A forfeit will result in a score of 0:2 (0:13, 0:13).
+
+\subsection{Rescheduling}
+All matches can be rescheduled, with the only exception being the finals. All matches during the Swiss system have a default play date on Sunday at 20:00. You can reschedule the date within the same week. To reschedule, teams have to use the built-in tool in the Faceit match room and an Admin will manually reschedule the match if both teams agree on a new date. If teams of a match can't agree on a date to reschedule to, the default date will be used. In this case, if both teams can't play, the match will be recorded as a tie (1-1).
+
+\subsection{Streaming Games}
+The streaming of games doesn't require any special permission and is encouraged. Share your streams with us, so we can let others know! To stream your own match from your POV, you are required to set up a stream delay of 120 second. If you want to spectate a match, you are required to contact the admins to be added as a spectator to the match room. The GOTV will already have the required delay.
 
 \subsection{Mappool}
 The tournament will use the official map pool of CS2, which is:
@@ -161,91 +175,44 @@ The tournament will use the official map pool of CS2, which is:
     \item de\_overpass
     \item de\_vertigo 
 \end{itemize}
-Should the official map pool of CS2 be changed during the season, the changes will not be implemented until at least one (1) week after
-the change is announced. That change will be communicated to the teams via the Discord server.
+Should the official map pool of CS2 be changed during the season, the season will be finished with the map pool that it started on if possible.
 
 
+\subsection{Mapveto}
+\newcommand{\TeamA}{{\color{red}Team A }}
+\newcommand{\TeamB}{{\color{blue}Team B }}
+The Team with the higher seed will choose if they are \TeamA or \TeamB in the Veto. The team that didn't choose a map gets to pick the starting sides. Unfortunately, Faceit does not allow an automated way to choose sides based on the veto. Teams have to lose the knife round on purpose, if they picked the current map.\\
 
-\subsection{Ban-System}
-In the Swiss rounds, both teams ban maps until only one is left over. Meaning, "Team A" bans first and then "Team B" bans and then "Team A"
-bans again and so on. (Bans will look like this: A-B-A-B-A-B)\\
-\\
-\noindent
-For the semifinals and the grand finals, there will be a "Pick-Ban-System", where "Team A" will ban one map, "Team B" will ban one map, 
-"Team A" picks one map, "Team B" picks one map, "Team A" bans one map and "Team B" bans one map which leaves the Best-of-3 with the 
-two map picks of the teams and the remaining map will be used as a decider should the need occur. \\
-\\
-Additionally, "Team B" gets to choose what side to start on, on "Team A"'s pick and vice versa. So if "Team A" picks Inferno, "Team B" 
-can choose to start on CT.\\
-On the decider map, the sides will be chosen by knife round. 
+\textbf{Map veto in Best-of-2's:}
+\begin{enumerate}
+    \item \TeamA bans 1 map
+    \item \TeamB bans 1 map
+    \item \TeamA picks map 1 (\TeamB chooses starting side)
+    \item \TeamB picks map 2 (\TeamA chooses starting side)
+    \item The remaining maps will be “banned” as this is a Best-of-2
+\end{enumerate}
 
+\textbf{Map veto in Best-of-3's:}
+\begin{enumerate}
+    \item \TeamA bans 1 map
+    \item \TeamB bans 1 map
+    \item \TeamA picks map 1 (\TeamB chooses starting side)
+    \item \TeamB picks map 2 (\TeamA chooses starting side)
+    \item \TeamB bans 1 map
+    \item \TeamA picks map 3 (\TeamB chooses starting side)
+\end{enumerate}
 
+\subsection{Pauses during a Game}
+There are two different types of timeouts that can occur during a match:
+\begin{itemize}
+    \item \textbf{Technical Pause}: In case of Connection issues, equipment/hardware issues or any other kind of technical problems, the teams can pause the game by using the command “!pause”. The pause will take effect as soon as the next freeze time starts. Each team can use a total of 5 minutes worth of technical pauses.\\
+    If you can't resolve the problem yourself, contact an admin as soon as possible.
+    \item \textbf{Tactical Timeout}: Every team can use four (4) tactical timeouts per map. In overtime, each team can use one tactical timeout. These timeouts last 30 seconds and can be called at any time during the game, with the in-game timeout feature. The timeout will start in the next freeze time.
 
-\subsection{Match Hosting}
-All games will be hosted on Faceit.
-
-
+\end{itemize}
 
 \subsection{Overtime}
-If a map ends in a tie (15:15) the teams will play Overtime. Overtime consists of six (6) rounds, three on each side. Both teams start the
-halves with \$10,000 starting money for each player. If after six rounds, the tie hasn't been broken, another overtime will be played. This process is repeated until a winner is found. 
-
-
-
-\subsection{Bugs and Glitches}
-Any bug or glitch must be reported to the admins immediately via the in game chat. If the error is reported before any damage was dealt to a player on the server, an admin will reset the round. \\
-\\
-A round is always "live" (meaning a round should be played as if nothing is wrong) until an admin says otherwise (via in game chat "not 
-live", "nicht live"). A finished round may only be reset in case of a serious error/problem, or if the error/problem was reported before
-any damage was dealt to a player. 
-
-
-
-
-\subsection{Cheating}
-Any form of cheating, defined by the administrators, will result in an immediate exclusion from the tournament. In the case of a player 
-cheating (here defined as using any form of software or hardware or bugs in the game to gain an unfair advantage over the other team, 
-e.g.: wallhacks, radarhacks, aimbots, any sort of scripts to improve movement in game, antiaim-hacks, use of pixelboosts,  etc.) said 
-player can not participate in the League again for at least two years, but depending on the severity, the player may be banned 
-permanently. The remainder of the team will be allowed to play again in the next season. A banned player trying to participate in a season
-while still banned (i.e. ban evading), will result in said player being banned permanently.\\
-\\
-During all games, the Faceit Anti Cheat must be running. Should the Anti Cheat crash, the player may only join the server again with the 
-Anti Cheat running. 
-
-
-
-\subsection{Punctuality}
-The veto for all matches starts 15 minutes before the match. A team automatically loses a map (0:16) if not all players are on the server 
-15 minutes after match start (e.g.: match start at 19:00, map veto at 18:45, if "Team A" is missing one player at 19:15, "Team A" 
-loses the first map, in case of a Best-of-3 the missing player has another ten (10) minutes to join the server for the second map, 
-otherwise the second map is also lost). The standard break time between maps is ten (10) minutes. Is a team not ready after five (5) 
-additional minutes after the break, they lose the map. \\
-\\
-A forfeit will result in a score of 0:16 or in a score of 0:2 (0:16, 0:16) for a Best-of-3.
-
-
-
-\subsection{Streaming your own Games}
-The streaming and broadcasting of games within the Charity League requires the permission of the
-administration. Every stream has a 120-second mandatory stream delay. If a stream doesn't conform to 
-these rules, the team violating said rules will receive sanctions.
-
-\section{"Prize"-money}
-Before the season starts, each team must name a charity of their choosing. The "Prize"-money will go to whatever charity the winning team
-named. \\
-
-\subsection{Terms and conditions for Charities}
-The charities named by the teams must be reputable. The tournament organizers reserve the right to make teams change their charity pick.
-The charity must be chosen two weeks before season begin. Should a problem occur, and a team has to change their charity, they will 
-receive an additional five days to name a charity of their choosing. Should the team not be able to name an eligible charity in those 
-five days, the "Prize"money will go to \href{https://www.redcross.org/}{TheRedCross}. 
-
-
-\section{Code of Conduct}
-All players are expected to conduct themselves in a sportsmanlike manner and to show respect for each other
-as well as for all coaches and spectators. The players must follow all instructions of the administrators. 
-
-
+If a map ends in a tie (12:12) the teams will play Overtime. Overtime consists of six (6) rounds, three on each side. Both teams
+start the halves with \$10,000 starting money for each player. If after six rounds, the tie hasn't been broken, another overtime will be played. This process is repeated until a winner is found. 
 
 \end{document}
