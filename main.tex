@@ -15,7 +15,7 @@
 \usepackage{xcolor} %Farben
 \usepackage{setspace} %Zeilenabstand definieren
 \usepackage{nameref}
-\usepackage[linktoc=all]{hyperref} %Verlinkungen
+\usepackage{hyperref} %Verlinkungen
 \usepackage{multicol} %Mehrere Spalten
 \usepackage{multirow}
 \usepackage{float}
@@ -24,11 +24,12 @@
 \newcommand{\uproman}[1]{\uppercase\expandafter{\romannumeral#1}}
 \def\name{LEAGUE NAME}
 \def\twitter{\href{https://twitter.com/chcsleague}{Twitter}}
-
+\newcommand{\TeamA}{{\color{red}Team A }}
+\newcommand{\TeamB}{{\color{blue}Team B }}
 
 \title{\name\\ Swiss Counter Strike 2 Community League\\Rulebook Season 1}
 \author{Noah 'Alastor' Baldinger, Jan 'Icy' Urech}
-\date{\today \hspace{1cm} Version Beta 1.1}
+\date{\today \hspace{1cm} Version Beta 1.2} %date of last change: 29.1.24
 
 
 \begin{document}
@@ -120,11 +121,11 @@ the participation can be proven by a sign-up mail or a similar document.\\
 It is the responsibility of the team that their roster fulfills the above requirements and that the required proof is available. 
 When in doubt, contact the admins \ref{admins} before building the roster.
 
-\subsubsection{Roster Check}
+\subsubsection{Roster Checks}
 Each team can request one roster check in each season. The admins also check one roster at random each week. There will be no communication on the reason for the check.\\
 As part of a roster check, the team will have to provide the necessary proof that the roster that played their last match fulfilled the tournament's requirements. If the team fails to provide this proof within 24 hours, they will be disqualified from the tournament. Due to the time constraints on the running tournament, the result of the match will not be changed.
 
-\subsubsection{Lanparties}
+\subsubsection{LANparties}
 Switzerlan
 \begin{itemize}
     \item \href{https://battlefy.com/switzerlan-2023/switzerlan-2023-counter-strike-2/65293e1a490b280d6f6adcb0/participants}{2023}
@@ -152,10 +153,19 @@ Lock and Load:
 During all games, the Faceit Anti-Cheat must be running.\\
 A player banned from Counter-Strike on Steam or Faceit is not allowed to compete in the competition.
 Any form of cheating using software, hardware, or bugs in the game to gain an unfair advantage over the 
-other team is strictly prohibited, this includes but isn't limited to pixel walks, any sort of script (bhop scripts, etc.)
-using gaps in maps to see through walls. Match fixing or account sharing will result in an immediate exclusion from the tournament.
-All players must have the default agent skins equipped for their matches. Jumpthrow and Runjumpthrow binds are allowed.  
-Misconduct will result at least in a ban of the involved player, but can also lead to sanctions against the involved team.\\
+other team is strictly prohibited, this includes but isn't limited to pixel walks, any sort of script (bhop scripts, etc.) or
+using gaps in maps to see through walls. \\
+Match fixing or account sharing will result in an immediate exclusion from the tournament.
+Jumpthrow and Runjumpthrow binds are allowed.
+%Misconduct will result at least in a ban of the involved player, but can also lead to sanctions against the involved team.
+
+
+\subsubsection{Agent skins}
+All players must have the default agent skins equipped for their matches, the players are required to hold their enemies accountable for that themselves, meaning if a game is finished the result stands. The use of agent skins needs to be brought to 
+the attention of an Admin immediately, which will cause a restart of the round in which the other team noticed the use of agent skins (if \TeamA notices \TeamB uses agent skins in round 15, then round 15 will be replayed). If \TeamB doesn't remove their agent skins for the restart of the round, the will forfeit the map.   
+
+
+\\
 
 \subsection{Punctuality}
 The veto for all matches starts 15 minutes before the match. A team automatically loses a map (0:13) if not all players are on the server 15 minutes after match start (e.g., : match start at 20:00, map veto at 19:45, if “Team A” is missing one player at 20:15, “Team A” loses the first map, the missing player then has another 15 minutes to join the server for the second map, otherwise the second map is also lost). The standard break time between maps is ten (10) minutes. If a team is not ready after five (5) additional minutes after the break, they will forfeit the map. \\
@@ -168,7 +178,7 @@ on Sunday. To reschedule, teams have to use the built-in tool in the Faceit matc
 
 \subsection{Streaming Games}
 The streaming of games doesn't require any special permission and is encouraged. Share your streams with us, so we can let others know! To stream your own match from your POV, you are required to set up a stream delay of 120 seconds. If you want to spectate a match, you are required to contact the admins to be added as a spectator to the match room. The GOTV will already have the required delay.
-
+\newpage
 \subsection{Mappool}
 The tournament will use the official map pool of CS2, which is:
 \begin{itemize}
@@ -184,8 +194,6 @@ Should the official map pool of CS2 be changed during the season, the season wil
 
 
 \subsection{Mapveto}
-\newcommand{\TeamA}{{\color{red}Team A }}
-\newcommand{\TeamB}{{\color{blue}Team B }}
 The Team with the higher seed will choose if they are \TeamA or \TeamB in the Veto. The team that didn't choose a map gets to pick the starting sides. Unfortunately, Faceit does not allow an automated way to choose sides based on the veto. Teams have to lose the knife round on purpose, if they picked the current map.\\
 
 \textbf{Map veto in Best-of-2's:}
