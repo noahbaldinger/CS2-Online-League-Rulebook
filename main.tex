@@ -5,31 +5,38 @@
 \usepackage{booktabs}                       % für Tabellen in Latex gemacht
 \usepackage{titling}                        % mehr Kontrolle über Titel 
 \usepackage[table,xcdraw]{xcolor}           % um Schrift und weiteres in anderen Farben zu schreiben
-\usepackage{babel} %Sprachelemente wie z.B. Silbentrennung
+\usepackage{babel} 
 \addto{\captionsngerman}{
-	\renewcommand\refname{Literaturverzeichnis} %Name für Quellenverzeichnis
+	\renewcommand\refname{Literaturverzeichnis} 
 }
 \usepackage[OT1]{fontenc}
 \renewcommand*\familydefault{\sfdefault}
-\usepackage[left=3 cm,right=3cm,top=2cm,bottom=3cm,includeheadfoot]{geometry} %Seitenränder
-\usepackage{xcolor} %Farben
-\usepackage{setspace} %Zeilenabstand definieren
+\usepackage[left=3 cm,right=3cm,top=2cm,bottom=3cm,includeheadfoot]{geometry} 
+\usepackage{xcolor}
+\usepackage{setspace}
 \usepackage{nameref}
-\usepackage{hyperref} %Verlinkungen
-\usepackage{multicol} %Mehrere Spalten
-\usepackage{multirow}
+\usepackage{hyperref} %Links
 \usepackage{float}
 \usepackage{mwe}
-\usepackage{wrapfig} %um Text um Bilder zu wrapen
 \newcommand{\uproman}[1]{\uppercase\expandafter{\romannumeral#1}}
 \def\name{LEAGUE NAME}
 \def\twitter{\href{https://twitter.com/chcsleague}{Twitter}}
 \newcommand{\TeamA}{{\color{red}Team A }}
 \newcommand{\TeamB}{{\color{blue}Team B }}
 
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={CS2 Rulebook Online League}, %title of the pdf when opened in a browser
+    pdfpagemode=FullScreen,
+    }
+
+
 \title{\name\\ Swiss Counter Strike 2 Community League\\Rulebook Season 1}
 \author{Noah 'Alastor' Baldinger, Jan 'Icy' Urech}
-\date{\today \hspace{1cm} Version Beta 1.2} %date of last change: 29.1.24
+\date{\today \hspace{1cm} Version Beta 1.3} %date of last change: 29.1.24
 
 
 \begin{document}
@@ -151,21 +158,24 @@ Lock and Load:
 
 \subsection{Cheating}
 During all games, the Faceit Anti-Cheat must be running.\\
+\\
 A player banned from Counter-Strike on Steam or Faceit is not allowed to compete in the competition.
 Any form of cheating using software, hardware, or bugs in the game to gain an unfair advantage over the 
 other team is strictly prohibited, this includes but isn't limited to pixel walks, any sort of script (bhop scripts, etc.) or
 using gaps in maps to see through walls. \\
 Match fixing or account sharing will result in an immediate exclusion from the tournament.
-Jumpthrow and Runjumpthrow binds are allowed.
-%Misconduct will result at least in a ban of the involved player, but can also lead to sanctions against the involved team.
+Jumpthrow and Runjumpthrow binds are allowed. Misconducts can result in measures including but not limited to forfeit losses, exclusion from current the Season or even bans from the League for multiple seasons depending on the severity of the misconduct. \\
+
+\noindent
+Additionally the measures can extend to all players of a team depending on the kind of misconduct (e.g.: if a team has a player 
+who is account sharing, all six players (the five players from the team and the person playing in place of the account sharer)  
+that were playing in the match can receive sanctions determined by the Admins).
 
 
 \subsubsection{Agent skins}
 All players must have the default agent skins equipped for their matches, the players are required to hold their enemies accountable for that themselves, meaning if a game is finished the result stands. The use of agent skins needs to be brought to 
 the attention of an Admin immediately, which will cause a restart of the round in which the other team noticed the use of agent skins (if \TeamA notices \TeamB uses agent skins in round 15, then round 15 will be replayed). If \TeamB doesn't remove their agent skins for the restart of the round, the will forfeit the map.   
 
-
-\\
 
 \subsection{Punctuality}
 The veto for all matches starts 15 minutes before the match. A team automatically loses a map (0:13) if not all players are on the server 15 minutes after match start (e.g., : match start at 20:00, map veto at 19:45, if “Team A” is missing one player at 20:15, “Team A” loses the first map, the missing player then has another 15 minutes to join the server for the second map, otherwise the second map is also lost). The standard break time between maps is ten (10) minutes. If a team is not ready after five (5) additional minutes after the break, they will forfeit the map. \\
@@ -178,7 +188,8 @@ on Sunday. To reschedule, teams have to use the built-in tool in the Faceit matc
 
 \subsection{Streaming Games}
 The streaming of games doesn't require any special permission and is encouraged. Share your streams with us, so we can let others know! To stream your own match from your POV, you are required to set up a stream delay of 120 seconds. If you want to spectate a match, you are required to contact the admins to be added as a spectator to the match room. The GOTV will already have the required delay.
-\newpage
+
+
 \subsection{Mappool}
 The tournament will use the official map pool of CS2, which is:
 \begin{itemize}
